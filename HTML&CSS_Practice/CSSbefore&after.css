@@ -1,0 +1,25 @@
+:root{
+    --bg-color:rgb(174, 150, 150);
+}
+.tittle, p,button{
+    background-color:var(--bg-color);
+}
+.content{
+    width:100%;
+    height:80px;
+    background-color:red;
+    overflow:auto ;
+}
+.paras{
+    width:100%;
+    background-color: green;
+    font-size:12px;
+    display:flex;
+}
+.paras p:first-child {
+    width:100px;
+    
+}
+.paras p:last-child{
+    width:calc(100% - 100px);
+}
